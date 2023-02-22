@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+
+<form action="/form_login" method="post">
+  <h2></h2>
+  <input type="text" name='username' placeholder="Enter Valid User Name" >
+  
+  <input  name='password' placeholder="Enter Valid Password" >
+
+<button  type="submit " value="login" class="btn btn-lg btn-info  ml-5" style="box-shadow: 0 4px 15px 0 rgba(54, 70, 69, 0.75); background-image: linear-gradient(to right, rgb(115, 115, 233), #6f7c94, #b3bdc0, #5c6f8b);">Submit</button>
+
+</form>
+<h1 style="color: #eee; text-align:center;">{{info}}</h1>
+
+<style>
+  body {
+    font-family: sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/01/22/71/96/360_F_122719641_V0yw2cAOrfxsON3HeWi2Sf4iVxhv27QO.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100%!important;
+    width:100%;
+}
+
+form {
+  border-radius: 3px;
+  max-width:700px;
+  width:100%;
+  margin: 5% auto;
+  background-color: #7e72ee;
+  overflow: hidden;
+}
+
+input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 2px 15px;
+}
+input {
+  text-align:center; 
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:10px 10px 10px 10px
+}
+</style>
+
+</body>
+</html>
